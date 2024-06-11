@@ -11,12 +11,26 @@ package codigo;
  */
 public enum Tokens {
     Reservadas,
-    Igual,
+    Reservada,
+    Cadena,
+    Asignacion,
     Suma,
     Resta,
     Multiplicacion,
     Division,
     Identificador,
     Numero,
+    Comparacion,
+    ParentesisApertura,
+    ParentesisCierre,
+    LlaveApertura,
+    LlaveCierre,
+    PuntoYComa,
+    Mayor,
+    Menor,
+    MayorIgual,
+    MenorIgual,
+    OpTernario,
+    OpSeparacion,
     ERROR
 }
